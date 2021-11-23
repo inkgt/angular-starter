@@ -1,0 +1,6 @@
+version: "2.1"
+services:
+  app-package:
+    image: ghcr.io/inkgt/angular-starter
+    ports:
+      - "8080:80"
